@@ -9,7 +9,7 @@ body {
   background-color: #f7f7f7;
 }
 .background-image {
-  background-image: url(//img/background-image.jpg);
+  background-image: url(../img/background-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -154,8 +154,14 @@ body {
   height: 100%;
 }
 .section-post__item-left {
-  background-image: url(//img/road-img.jpg);
+  background-image: url(../img/road-img.jpg);
   background-repeat: no-repeat;
+  background-size:cover;
+}
+.section-post__item-right {
+  background-image: url(../img/top-down-img.jpg);
+  background-repeat: no-repeat;
+    background-size:cover;
 }
 .section-resent__item:nth-child(3) {
   margin-right: 0px;
